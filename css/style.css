@@ -1,0 +1,27 @@
+body{
+	background: #3587a4;
+}
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+nav{
+	background: #131515;
+}
+
+.contenedor{
+	max-width: 800px;
+	margin: auto;
+}
+
+.menu{
+	float: right;
+}
+
+.menu li{
+	display: inline-block;
+}

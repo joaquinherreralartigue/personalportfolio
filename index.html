@@ -3,23 +3,27 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Mi Portfolio Web </title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/reset.css">
 	</head>
 	<body>
-
-		<header>
-			<nav>
+		<nav>
+			<div class="contenedor">
 				<a href="index.html"><img src="https://placehold.it/70x40"></a>
-				<ul>
+				<ul class="menu">
 					<li><a href="getto.html">Get to know me</a></li>
 					<li><a href="work.html">My work</a></li>
 					<li><a href="contact.html">Contact me</a></li>
 				</ul>
-			</nav>
+			</div>
+		</nav>
+		<header>
+			
 		</header>
 		<h1><a href="getto.html">Joaquin Herrera Lartigue</a></h1>
 		<section>
-			<video width="1280" controls>
-  			<source src="video/video.mp4" type="video/mp4">
+			<video width="360" controls>
+  			<source src="video/video.mp4">
 			Your browser does not support the video tag.
 			</video> 
 		</section>
@@ -46,11 +50,18 @@
 		<footer>
 			<nav>
 				<a href="index.html"><img src="https://placehold.it/70x40"></a>
-
 				<ul>
-					<li><a href="www.facebook.com/joacoherreralartigue"><img src="https://placehold.it/20x20"></a></li>
+					<li><a href="www.facebook.com/joacoherreralartigue">Facebook</a></li>
+					<li><a href="https://twitter.com/JoaqunHerrera">Twitter</a></li>
+					<li><a href="www.github.com/joaquinherreralartigue">GitHub</a></li>
+					<li><a href="www.linkedin.com/joaquinherreralartigue">LinkedIn</a></li>
 				</ul>
 			</nav>
+			<form method="get" action="https://www.google.com.ar/">
+				Search google:
+				<input type="search" name="google">
+				<input type="Submit" name="Search" value="Search" title="Search">				
+			</form>
 		</footer>
 	</body>
 </html>
